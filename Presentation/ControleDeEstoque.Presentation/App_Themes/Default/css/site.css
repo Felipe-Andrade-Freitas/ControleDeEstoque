@@ -1,0 +1,529 @@
+html{
+    height: 100%;
+}
+body{
+	background: #eaeaea url(../images/gradient_03.png) center top repeat-x;
+	height: 100%;
+    padding-right: 0px !important;
+}
+body #form1{
+    height: 100%;
+    background: url(../images/bg.png);
+}
+.container{
+	max-width: 970px;
+}
+.barra-verde{
+	height: 28px;
+	background: #085e09;
+	border-bottom: 1px solid #ffb400;
+}
+.header-antt{
+	margin-top: -1px;
+    min-height: 150px;
+    width: 1011px;
+}
+#header .container{
+	background: #fff url(../images/gradient-header_02.png) repeat-x;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #C7C7C7;
+	height: 144px;
+}
+.navbar-antt{
+	margin-left: -20px;
+	box-shadow: none;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #294487;
+	font-size: 11px;
+	font-weight: bold;
+}
+.navbar-nav > li > a{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background: none;
+}
+.dropdown-menu > li > a{
+	padding: 3px 20px;
+	color: #294487;
+}
+.dropdown-menu .divider{
+	margin: 0;
+}
+.dropdown-menu{
+	padding: 0;
+	font-size: 11px;
+	box-shadow: none;
+	border-radius: 0;
+	border-color: #ccc;
+}
+.dropdown-menu img.separator{
+	height: 1px;
+	width: 100%;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background: #668db1;
+	color: #fff;
+}
+.navbar-brand{
+	float: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none;
+}
+.navbar-nav > li{
+	margin-top: -3px;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+}
+.navbar-toggle{
+	float: left;
+    margin-left: 15px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background: none;
+}
+.dados-sistema{
+	text-align: right;
+}
+.titulo-sistema{
+	color: #294487;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+    margin-top: 5px;
+    display: block;
+}
+.data-hora{
+	color: #039;
+	font-size: 11px;
+	margin-right: 20px;
+	display: block;
+}
+.nome-user{
+	display: block;
+    font-size: 10px;
+    margin-right: 19px;
+    margin-top: 15px;
+    text-align: right;
+    width: 96%;
+    margin-bottom: 35px;
+}
+.geral{
+	background: #fff;
+	min-height: 50px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #C7C7C7;
+	margin-top: 5px;
+	padding: 25px;
+}
+.middle{
+	border: 1px solid #BDD1DB;
+	border-radius: 5px;
+	min-height: 50px;
+	width: 95%;
+	margin: 0 auto;
+}
+.panel-default{
+	border-color: #BDD1DB;
+}
+.panel-title{
+	color: #294487;
+}
+.panel-heading{
+	background: none !important;
+	border-color: #C5BFA7 !important;
+}
+.btn-antt{
+	background: #E4E7CF;
+	color: #666666;
+	width: 110px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default, .btn-antt{
+	background: #E4E7CF;
+	color: #666666;
+}
+.navbar{
+	z-index: 10;
+}
+.col-xs-12 .navbar{
+	margin-bottom: 0;
+}
+@media (max-width:767px) {
+	#header .container {
+    	background: #e8e8e8;
+    	max-height: 140px;
+    }
+    .logo-principal{
+	margin-top: 0;
+	}
+    .dados-sistema{
+    	text-align: center;
+    	margin-bottom: 10px;
+    }
+    .nav-responsive{
+    	background: #fff;
+    }
+    .nome-user {
+    display: block;
+    font-size: 10px;
+    margin-right: 19px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+	}
+	.titulo-sistema{
+		display:block;
+		margin-top: 0;
+		font-size: 14px;
+	}
+	.area-logo img{
+		margin: 0 auto;
+	}
+	.navbar-nav > li{
+    	margin-top: 0;
+    	background: #e6e6e6;
+    	width: 100%;
+    	margin-top: 1px;
+    }
+    .navbar-antt{
+    	width: 111%;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background: #668db1;
+    color: #fff;
+	}
+	.navbar-default .navbar-nav > li > a{
+		font-size: 14px;
+		padding: 10px;
+		font-weight: normal;
+	}
+	.navbar-nav {
+    margin: 0 -15px;
+	}
+	.geral{
+		margin-top: 45px;
+	}
+	.col-xs-8 .btn-limpar{
+	margin-top: 50px;
+	}
+}
+@media (width:768px) {
+	.nome-user{
+		margin-bottom: 40px;
+	}
+	.logo-principal{
+	margin-top: 0;
+    }
+}
+/*IE8*/
+/*.ie8 .header-antt{
+	margin-top: -1px;
+    min-height: 150px;
+    width: 1011px;
+    margin-left: 200px;
+}
+.ie8 .nome-sistema{
+	margin-top: -100px;
+	margin-right: 15px;
+}
+.ie8 #menu{
+	margin-left: 70px;
+}
+.ie8 .item-portal{
+	margin-top: -6px;
+}
+.ie8 .item-out{
+	margin-top: -6px;
+}
+
+.ie8 .area-form input[type="text"] {
+    float: left;
+    width: 200px;
+}
+.ie8 .area-form .control-label{
+	float: left;
+}
+.ie8 .area-form select{
+	width: 200px;
+	float: left;
+}*/
+/*IE8*/
+.navbar {
+  margin-bottom: 20px;
+}
+.system-name{
+	color: #294487;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 60px;
+    margin-top: 10px;
+}
+.date{
+	color: #039;
+	font-size: 11px;
+	text-align: right;
+	margin-right: 60px;
+	margin-top: 10px;
+}
+.name-user{
+	font-size: 12px;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+.navbar-default{
+	background: none;
+	border: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background: none;
+}
+#menuDropdown{
+	font-size: 10px;
+    margin-bottom: -50px;
+    margin-left: -125px;
+    margin-top: 5px;
+}
+#menu .dropdown_2columns li:hover{
+	color: #fff !important;
+}
+.nav-right ul li{
+	list-style: none;
+	float: left;
+	font-size: 11px;
+	margin-left: 15px;
+}
+.item-portal{
+	margin-left: 98px !important;
+	margin-top: 5px;
+}
+.item-out{
+	margin-right: 67px;
+	margin-top: 5px;
+}
+.bg-white{
+	background: #fff;
+}
+.rounded{
+	margin: 0 auto 10px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 1px 1px 1px #C7C7C7;
+}
+.padding-10{
+	padding: 10px;
+}
+.rounded-blue{
+	background: none repeat scroll 0 0 #f9fafb;
+    border: 1px solid #bdd1db;
+    border-radius: 15px;
+    margin: 30px 20px 20px;
+    min-height: 40px;
+}
+.rounded-blue h2{
+	font-size: 14px;
+	color: #294487;
+	margin: 30px 0 40px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #C5BFA7;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.area-form{
+	width: 900px;
+	margin: 0 auto;
+}
+.area-form input[type="text"] {
+    border: 1px solid #C5BFA7;
+    font: 11px Verdana;
+    color: #666;
+    height: 18px;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 5px;
+}
+.area-form select {
+    border: 1px solid #C5BFA7;
+    font: 11px verdana;
+    color: #666;
+    height: 20px;
+    padding: 1px;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+}
+.area-form .control-label{
+	font: 11px "Verdana",sans-serif,arial,helvetica !important;
+	color: #3B3B3B;
+}
+.area-form .limpar{
+	background-color: #E4E7CF;
+	background-image: url(../images/limpar.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	border: 1px solid #B3B6B0;
+	font: 11px Verdana;
+	color: #666;
+	text-decoration: none;
+	padding: 2px 8px 2px 22px;
+	cursor: pointer;
+	border-radius: 0;
+	width: 100px;
+}
+.area-form .consultar{
+	background-color: #E4E7CF;
+	background-image: url(../images/consultar.png);
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	border: 1px solid #B3B6B0;
+	font: 11px Verdana;
+	color: #666;
+	text-decoration: none;
+	padding: 2px 8px 2px 22px;
+	cursor: pointer;
+	width: 100px;
+	border-radius: 0;
+	margin-left: 15px;
+}
+.area-form .form-control:focus {
+    border-color: none !important;
+    outline: 0px none;
+    box-shadow: 0 !important;
+}
+.area-table{
+	overflow: auto;
+}
+.area-table table{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #333;
+    border: 1px solid #C5BFA7;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	font-weight: normal;
+}
+.area-table table th{
+	background: url(../images/grid3-hrow.gif) repeat-x scroll 0px bottom #F9F9F9;
+	padding: 6px 3px;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	color: #7A8180;
+	font-size: 12px;
+	font-weight: normal;
+    border: 1px solid #C5BFA7;
+}
+.area-table table tbody .alternate td {
+    background-color: #EFF0E6;
+}
+.area-table table tbody td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 3px 3px 3px 5px;
+    background-color: #FFF;
+    border: 1px solid #C5BFA7;
+}
+ .paginator{
+    border: 0px;
+    text-align: center;
+    padding: 12px;
+}
+.paginator span{
+    float: left;
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+.paginator select{
+    float: left;
+}
+.paginator ul{
+    padding: 0;
+    margin: 0;
+}
+.paginator li{
+    display: inline;
+    padding: 4px;
+    margin: 2px;
+    border: solid 1px #dad7c8;
+    background-color: #f7f7f7;
+}
+.paginator li a{
+    text-decoration: none;
+    cursor: hand;
+}
+.panel-cadastro{
+	margin-top: 20px;
+}
+.btn-limpar{
+	margin-top: 25px;
+}
+.panel-cadastro .panel-heading{
+	font-weight: bold;
+}
+.margin-right-10{
+	margin-right: 10px;
+}
+.logo-principal{
+	margin-top: 10px;
+}
+.modal-open{
+    overflow-y: auto;
+}
+.ui-datepicker table {
+    font-size: .8em;
+}
+.ui-table-sortable {
+    cursor: pointer;
+}
+.no-border {
+    border: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.field-validation-error {
+    color : #F00;
+}
+.field-validation-valid {
+    display: none;
+}
+.input-validation-error
+{
+    border:1px solid #F00;
+    background-color: #FEE;
+}
+.dropdown > .dropdown-menu {
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu > .dropdown-menu {
+	top: inherit;
+    margin-top: -21px;
+	left:100%;
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	border-radius:0 6px 6px 6px;
+}
+@media (min-width: 768px) {
+    .dropdown:hover > .dropdown-menu {
+	    display:block;
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+}
+th.not-sortable {
+    width: 80px;
+}
+.ui-datepicker table {
+    font-size: 0.8em !important;
+}

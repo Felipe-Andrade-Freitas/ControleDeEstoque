@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects xmlns="http://www.springframework.net">
+    <object id="CadastroService" singleton="true" type="ControleDeEstoque.Services.Impl.Services.CadastroService, ControleDeEstoque.Services.Impl" />
+    <object id="ServiceBase" singleton="true" type="ControleDeEstoque.Services.Impl.Services.ServiceBase, ControleDeEstoque.Services.Impl" />
+</objects>
